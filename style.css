@@ -71,7 +71,7 @@ body {
 	color: #ffff;
     font-weight: 900;
     line-height: 78px;
-	background-color: #cc1573;
+	background-image: linear-gradient(to left, #4e4086, #3022a9);
 }
 
 h1,
@@ -241,7 +241,7 @@ img {
   z-index: 9999; }
   .preloader .circle-preloader {
     -webkit-animation: spin 900ms infinite linear;
-    animation: spin 900ms infinite linear; }
+    animation: spin 900ms  linear; }
 @-webkit-keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
@@ -496,9 +496,7 @@ img {
 .classy-navbar .nav-brand {
   max-width: 130px; }
 .nav-brand{
-    border-left: 3px solid white;
-    border-right: 3px solid white;
-    border-top: 3px solid rgba(200, 28, 250, 0.8);
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
