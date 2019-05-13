@@ -91,6 +91,9 @@ p {
   font-size: 14px;
   line-height: 2;
   font-weight: 500; }
+ .t-color{
+	  color:rgba(255, 255, 255, 1) !important;
+  }
 
 a,
 a:hover,
@@ -1327,7 +1330,9 @@ img {
       .featured-album-content .album-songs .now-playing .audioplayer-bar {
         display: none; }
       .featured-album-content .album-songs .now-playing .audioplayer-playpause {
-        background-color: #ffffff; }
+        background-color: #ffffff;
+			margin-top: 2%;
+			margin-left: -8%;}
       .featured-album-content .album-songs .now-playing .audioplayer-time-duration {
         margin-right: 0; }
       .featured-album-content .album-songs .now-playing .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
